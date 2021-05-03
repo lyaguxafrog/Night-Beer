@@ -1,68 +1,38 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-     crossorigin="anonymous">
-    <title>Night Beer</title>
-  </head>
-  <body>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand">Night Beer</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Главная</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Москва</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Санкт Петербург</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-      <blockquote class="blockquote text-center">
-        <p class="mb-0" style="font-size:130%;
-        margin-top: 1%; margin-left: 1%">Пей пиво на заре, пей пиво перед сном,
-             пей пиво на траве, пей пиво за столом!</p><br>
-        <footer class="blockquote-footer" style="font-size:130%;">Дискотека Авария</footer>
-      </blockquote>
-      <p class="lead" style="text-indent: 20px; padding: 0px 20px 0px 20px ;
-      font-size: 130%; margin-top: 1%;" >
-        Night Beer - уникальный геоинформационный сервис, отображающий точки
-        где можно купить пиво ночью в каждой из столиц нашей прекрасной страны!
-        Его уникальность заключается в простоте использования и детальности описания каждой точки.
-        Night Beer не даст пропасть вашей тусовке. Панк - это тусня!
-      </p>
-    <p><a href="pages/indexMsk.html"><img src="images/msk.jpg" width="30%" class="img-fluid"
-      style="float: left;
-    margin-left: 17%;" href="#"></a></p>
-    <p><a href="pages/indexSpb.html"><img src="images/spb.jpg" width="30%" class="img-fluid" style="float: right;
-  margin-right: 17%; margin-top: 0%"></a></p>
-    <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+<html>
+  <head>
+    <title>Night-Beer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-      <div class="text-center p-3" style="background-color: rgba(33,37,41,255);">
-      © 2021 AlexanderMalenkov:
-        <a class="text-white" href="https://github.com/AlexanderMalenkov">github.com</a>
+      <div class="container-center-horizontal">
+        <div class="macbook-pro-1 screen">
+          <div class="top-panel">
+            <a href="#maps"><h1 class="title">Night Beer</h1></a>
+          </div>
+          <div class="text">
+            <div class="citat">
+              Night Beer - уникальный геоинформационный сервис, отображающий точки где можно купить пиво ночью в каждой из
+              столиц нашей прекрасной страны! Его уникальность заключается в простоте использования и детальности описания
+              каждой точки. Night Beer не даст пропасть вашей тусовке. Панк - это тусня!
+            </div>
+          </div>
+          <div class="maps" id="maps">
+            <img
+              class="msk-1"
+              src="https://anima-uploads.s3.amazonaws.com/projects/608f3b3741cbc31734185cc9/releases/608f4a5a5c59a6b4d0f0883a/img/msk-1@1x.png"
+            />
+            <img
+              class="spb-1"
+              src="https://anima-uploads.s3.amazonaws.com/projects/608f3b3741cbc31734185cc9/releases/608f4a5a5c59a6b4d0f0883a/img/spb-1@1x.png"
+            />
+          </div>
+          <div class="overlap-group">
+            <a href="https://github.com/AlexanderMalenkov/Night-Beer" target="_blank"
+              ><img
+                class="github"
+                src="https://anima-uploads.s3.amazonaws.com/projects/608f3b3741cbc31734185cc9/releases/608f4a5a5c59a6b4d0f0883a/img/github@2x.png"
+            /></a>
+          </div>
+        </div>
       </div>
-    </footer>
-
-</body>
+  </head>
 </html>

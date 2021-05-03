@@ -1,0 +1,137 @@
+:root {
+  --concord: #7c7c7c;
+  --white: #ffffff;
+
+  --font-size-l: 48px;
+  --font-size-m: 36px;
+
+  --font-family-orbitron-regular: "Orbitron-Regular", Helvetica;
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+}
+
+.macbook-pro-1 {
+  background-color: var(--white);
+  height: 900px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+.macbook-pro-1 .citat {
+  color: var(--concord);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-m);
+  left: 141px;
+  letter-spacing: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  width: 1159px;
+}
+.macbook-pro-1 .github {
+  cursor: pointer;
+  height: 31px;
+  left: 705px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 13px;
+  width: 30px;
+}
+.macbook-pro-1 .maps {
+  height: 489px;
+  left: -1px;
+  position: absolute;
+  top: 339px;
+  width: 1440px;
+}
+.macbook-pro-1 .msk-1 {
+  height: 427px;
+  left: 60px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 560px;
+}
+.macbook-pro-1 .overlap-group {
+  background-color: var(--concord);
+  height: 57px;
+  left: 0;
+  position: absolute;
+  top: 843px;
+  width: 1440px;
+}
+.macbook-pro-1 .spb-1 {
+  height: 427px;
+  left: 820px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 560px;
+}
+.macbook-pro-1 .text {
+  background-color: #f6f6f6;
+  height: 273px;
+  left: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 66px;
+  width: 1440px;
+}
+.macbook-pro-1 .title {
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-family-orbitron-regular);
+  font-size: var(--font-size-l);
+  left: 520px;
+  letter-spacing: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 402px;
+}
+.macbook-pro-1 .top-panel {
+  background-color: var(--concord);
+  height: 66px;
+  left: 0;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
